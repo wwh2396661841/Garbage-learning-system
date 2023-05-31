@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wwh.system.mapper.SystemUserMapper">
+     <select id="selectByPage" resultType="com.wwh.system.domain.SystemUser">
+        select * from user ${ew.customSqlSegment}
+    </select>
+    <insert id="setUserRole" >
+        insert into sys_user_role (user_id, user_name, role_id, role_name) values (#{userRole.userId}, #{userRole.userName}, #{userRole.roleId}, #{userRole.roleName})
+    </insert>
+    <insert id="setUserProject" >
+        insert into sys_user_project (user_id, user_name, project_id, project_name) values (#{userProject.userId}, #{userProject.userName}, #{userProject.projectId}, #{userProject.projectName})
+    </insert>
+    <insert id="setUserDept" >
+        insert into sys_user_dept (user_id, user_name, dept_id, dept_name) values (#{userProject.userId}, #{userProject.userName}, #{userProject.deptId}, #{userProject.deptName})
+    </insert>
+</mapper>
