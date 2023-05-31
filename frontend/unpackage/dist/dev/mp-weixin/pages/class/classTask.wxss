@@ -1,0 +1,55 @@
+
+.class-task-content{
+	display: flex;
+	flex-direction: column;
+}
+.class-task{
+	display: flex;
+	flex-direction: column;
+	margin-top: 50rpx;
+	border-radius: 2%;
+	box-shadow: 0rpx 0rpx 12rpx #e2e2e2,
+	            0rpx -2rpx 12rpx #e2e2e2,
+				2rpx 0rpx 12rpx #e2e2e2,
+	            0rpx 2rpx 12rpx #e2e2e2;
+}
+.class-task-head{
+	display: flex;
+	margin-top: 20rpx;
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+}
+.class-task-head-image{
+	flex: 1;
+}
+.class-task-head-front{
+	flex: 5;
+	display: flex;
+	flex-direction: column;
+}
+.class-task-issuer{
+}
+.class-task-date{
+	margin-top: 15rpx;
+}
+.class-task-body{
+	margin-top: 20rpx;
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+}
+.class-task-bottom{
+	display: flex;
+	margin-top: 20rpx;
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+	margin-bottom: 20rpx;
+}
+.class-task-finish{
+}
+.class-task-unfinish{
+	margin-left: 40rpx;
+}
+.class-task-botton{
+	margin-left: 40rpx;
+}
+

@@ -1,0 +1,65 @@
+
+.task-question-content{
+	display: flex;
+	flex-direction: column;
+}
+.task-question-head{
+	display: flex;
+	padding-top: 30rpx;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+.task-question-body{
+	display: flex;
+	flex-direction: column;
+	padding-top: 30rpx;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+.task-question-bottom{
+	display: flex;
+	padding-top: 30rpx;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+.question-detail-name{
+}
+.question-item{
+	display: flex;
+}
+.question-detail-body{
+	display: flex;
+	flex-direction: column;
+}
+.question-num{
+	padding-left: 30rpx;
+}
+.question-name{
+	padding-left: 30rpx;
+}
+.question-type{
+	padding-left: 30rpx;
+}
+.class-task-head-image{
+	flex: 1;
+}
+.class-task-head-front{
+	flex: 5;
+	display: flex;
+	flex-direction: column;
+}
+.class-task-issuer{
+}
+.class-task-date{
+	margin-top: 15rpx;
+}
+.task-question-todo{
+	padding-left: 50rpx;
+}
+.task-question-situation{
+	padding-left: 50rpx;
+}
+.task-question-member-situation{
+	padding-left: 50rpx;
+}
+

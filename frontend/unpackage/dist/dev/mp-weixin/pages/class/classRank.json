@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar"
+  }
+}

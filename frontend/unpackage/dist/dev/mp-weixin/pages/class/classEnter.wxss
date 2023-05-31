@@ -1,0 +1,145 @@
+
+.item-class {
+	display: flex;
+	flex-direction: column
+}
+.list-class {
+	flex-direction: column
+}
+.class-list-item {}
+.enter-class {
+	flex-grow: 0;
+}
+.create-class {
+	display: flex;
+	flex-grow: 0;
+	/* border: 2px solid red; */
+	padding: 10rpx;
+	color: #0055ff;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+}
+.input-search {
+	height: 80rpx;
+	width: 320rpx;
+	text-align: center;
+}
+.input-view {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10rpx 20rpx 20rpx 20rpx;
+	height: 100rpx;
+	border-radius: 0%;
+	/* 		box-shadow: 10upx 10upx 12upx #888888; */
+	/* box-shadow: 0 0 30upx #888888; */
+}
+.input-view-item {
+	display: flex;
+	height: 80rpx;
+	padding: 10rpx;
+	align-items: center;
+	justify-content: center;
+}
+.font-search {
+	/* border: 2px solid red; */
+	width: 80rpx;
+	padding: 10rpx;
+	color: #72c69c;
+	font-weight: bold;
+}
+.class-line{
+	padding: 20rpx;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  padding-top: 20rpx;
+  /* border: 1px solid #ccc; */
+  background-color: #ffffff;
+}
+.table-image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.table-list{
+	display: flex;
+	width: 100%;
+	height: 250rpx;
+}
+.column1{
+	flex: 2;
+	padding: 10px;
+	text-align: center;
+}
+.column2{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start; /* 让子项垂直方向上对齐到顶部 */
+	justify-content: flex-start; /* 让子项水平方向上对齐到左侧 */
+	flex: 5;
+	padding: 10px;
+	text-align: center;
+}
+.item1{
+	display: flex;
+	flex: 1;
+	text-align: left;
+	width: 100%;
+	align-items: flex-start; /* 让子项垂直方向上对齐到顶部 */
+	justify-content: flex-start; /* 让子项水平方向上对齐到左侧 */
+	margin-top: 10rpx; /* 上外边距为20像素 */
+}
+.item2{
+	flex: 1;
+	text-align: left;
+	margin-top: 10rpx; /* 上外边距为20像素 */
+}
+.item3{
+	flex: 1;
+	width: 100%;
+	text-align: left;
+	margin-top: 10rpx; /* 上外边距为20像素 */
+	margin-bottom: 10rpx; /* 下外边距为20像素 */
+}
+.class-name{
+	flex: 5;
+}
+.class-enter-botton{
+	flex: 2;
+}
+.class-popup{
+	display: flex;
+	flex-direction: column;
+	width: 600rpx;
+}
+.class-popup-head{
+	flex: 1;
+	padding-top: 20rpx;
+	align-items: center;
+	justify-content: center;
+}
+.class-popup-body{
+	flex: 8;
+	text-align: left;
+}
+.bottom-button{
+}
+.class-popup-bottom{
+	display: flex;
+	flex: 2;
+	padding: 20rpx;
+	align-items: center;
+	justify-content: center;
+}
+.class-popup-body-describe{
+	padding-top: 20rpx;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+
+

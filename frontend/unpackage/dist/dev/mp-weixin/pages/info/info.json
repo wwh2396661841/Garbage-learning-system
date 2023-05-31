@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-cell-group": "/uni_modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-form": "/uni_modules/uview-ui/components/u-form/u-form",
+    "u-line": "/uni_modules/uview-ui/components/u-line/u-line",
+    "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-notify": "/uni_modules/uview-ui/components/u-notify/u-notify"
+  }
+}

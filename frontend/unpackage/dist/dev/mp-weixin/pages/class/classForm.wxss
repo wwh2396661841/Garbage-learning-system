@@ -1,0 +1,20 @@
+
+.confirm_search.data-v-4e90049c{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.form-head.data-v-4e90049c{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20rpx;
+}
+.form-body.data-v-4e90049c{
+	padding: 20rpx;
+}
+.form-bottom.data-v-4e90049c{
+	padding: 20rpx;
+}
+

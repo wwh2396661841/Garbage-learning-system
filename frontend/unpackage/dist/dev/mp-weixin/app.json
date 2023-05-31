@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/challenge/challengeResult",
+    "pages/search/search",
+    "pages/challenge/challenge",
+    "pages/info/info",
+    "pages/info/regist",
+    "pages/class/classIndex",
+    "pages/class/classMember",
+    "pages/class/taskQuestion",
+    "pages/class/classForm",
+    "pages/info/updateInfo",
+    "pages/class/classAdvice",
+    "pages/class/taskQuestionAnswer",
+    "pages/class/taskMemberDetail",
+    "pages/class/taskQuestionResult",
+    "pages/class/classRank",
+    "pages/class/classTask",
+    "pages/class/classTaskRelease",
+    "pages/class/classEnter",
+    "pages/class/classDetail",
+    "pages/type/type",
+    "pages/webview/webview"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "垃圾识别精灵",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#8F8F94",
+    "selectedColor": "#000000",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/homeSelected.png"
+      },
+      {
+        "pagePath": "pages/type/type",
+        "text": "分类",
+        "iconPath": "static/tabBar/type.png",
+        "selectedIconPath": "static/tabBar/typeSelected.png"
+      },
+      {
+        "pagePath": "pages/challenge/challenge",
+        "text": "挑战赛",
+        "iconPath": "static/tabBar/challenge.png",
+        "selectedIconPath": "static/tabBar/challengeSelected.png"
+      },
+      {
+        "pagePath": "pages/class/classIndex",
+        "text": "班级",
+        "iconPath": "static/tabBar/more.png",
+        "selectedIconPath": "static/tabBar/moreSelected.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "我的",
+        "iconPath": "static/tabBar/more.png",
+        "selectedIconPath": "static/tabBar/moreSelected.png"
+      }
+    ]
+  },
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.5",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "usingComponents": {}
+}

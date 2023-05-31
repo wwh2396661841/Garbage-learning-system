@@ -1,0 +1,145 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/challenge/challengeResult",
+			"style": {}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {}
+		},
+		{
+			"path": "pages/challenge/challenge",
+			"style": {
+				"navigationBarTitleText":"环保守卫者挑战赛"
+			}
+		},
+		{
+			"path": "pages/info/info",
+			"style": {}
+		},
+		{
+			"path": "pages/info/regist",
+			"style": {}
+		},
+		{
+			"path": "pages/class/classIndex",
+			"style": {}
+		},
+		{
+			"path": "pages/class/classMember",
+			"style": {}
+		},
+		{
+			"path": "pages/class/taskQuestion",
+			"style": {}
+		},
+		{
+			"path": "pages/class/classForm",
+			"style": {}
+		},
+		{
+			"path": "pages/info/updateInfo",
+			"style": {}
+		},
+		{
+			"path": "pages/class/classAdvice",
+			"style": {}
+		},
+		{
+			"path": "pages/class/taskQuestionAnswer",
+			"style": {}
+		},
+		{
+			"path": "pages/class/taskMemberDetail",
+			"style": {}
+		},
+		{
+			"path": "pages/class/taskQuestionResult",
+			"style": {}
+		},
+		{
+			"path": "pages/class/classRank",
+			"style": {}
+		},
+		{
+			"path": "pages/class/classTask",
+			"style": {}
+		},
+		{
+			"path": "pages/class/classTaskRelease",
+			"style": {}
+		},
+		{
+			"path": "pages/class/classEnter",
+			"style": {}
+		},
+		{
+			"path": "pages/class/classDetail",
+			"style": {}
+		},
+		{
+			"path": "pages/type/type",
+			"style": {}
+		},
+		{
+			"path": "pages/webview/webview",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "垃圾识别精灵",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#fff"
+	},
+	"condition": { //模式配置，仅开发期间生效 233333333333
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"tabBar": {
+		"color": "#8F8F94",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "主页",
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/homeSelected.png"
+			},
+			{
+				"pagePath": "pages/type/type",
+				"text": "分类",
+				"iconPath": "static/tabBar/type.png",
+				"selectedIconPath": "static/tabBar/typeSelected.png"
+			},
+			{
+				"pagePath": "pages/challenge/challenge",
+				"text": "挑战赛",
+				"iconPath": "static/tabBar/challenge.png",
+				"selectedIconPath": "static/tabBar/challengeSelected.png"
+			},
+			{
+				"pagePath": "pages/class/classIndex",
+				"text": "班级",
+				"iconPath": "static/tabBar/more.png",
+				"selectedIconPath": "static/tabBar/moreSelected.png"
+			},
+			{
+				"pagePath": "pages/info/info",
+				"text": "我的",
+				"iconPath": "static/tabBar/more.png",
+				"selectedIconPath": "static/tabBar/moreSelected.png"
+			}
+		]
+	}
+}

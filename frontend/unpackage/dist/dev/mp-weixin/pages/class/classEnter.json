@@ -1,0 +1,17 @@
+{
+  "usingComponents": {
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider",
+    "u-list": "/uni_modules/uview-ui/components/u-list/u-list",
+    "u-list-item": "/uni_modules/uview-ui/components/u-list-item/u-list-item",
+    "u--image": "/uni_modules/uview-ui/components/u--image/u--image",
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-tag": "/uni_modules/uview-ui/components/u-tag/u-tag",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "class-popup": "/pages/class/classPopup"
+  }
+}

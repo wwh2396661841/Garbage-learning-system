@@ -1,0 +1,41 @@
+
+.class-advice-content{
+	display: flex;
+	flex-direction: column;
+}
+.class-advice{
+	display: flex;
+	flex-direction: column;
+	margin: 30rpx;
+	border-radius: 2%;
+	box-shadow: 0rpx 0rpx 12rpx #e2e2e2,
+	            0rpx -2rpx 12rpx #e2e2e2,
+				2rpx 0rpx 12rpx #e2e2e2,
+	            0rpx 2rpx 12rpx #e2e2e2;
+}
+.class-advice-head{
+	display: flex;
+	margin-top: 20rpx;
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+}
+.class-advice-body{
+	display: flex;
+	margin-top: 20rpx;
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+}
+.class-advice-bottom{
+	display: flex;
+	margin-top: 20rpx;
+	margin-left: 30rpx;
+	margin-right: 30rpx;
+	margin-bottom: 20rpx;
+}
+.class-advice-name{
+	flex: 3;
+}
+.class-advice-date{
+	flex: 1;
+}
+

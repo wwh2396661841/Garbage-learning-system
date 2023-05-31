@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lxsir.uniapp.mapper.ClassUserMapper">
+
+    <select id="getListNotEnter" resultType="cn.lxsir.uniapp.entity.ClassUser">
+        select  *
+        from (
+                 select id,user_name,user_id,class_name,class_id
+                 from class_user
+                 where user_id != #{userId}
+             ) t
+        where not exists (
+                select * from class_user u where u.user_id = #{userId} and	t.class_id = u.class_id
+            )
+
+    </select>
+
+    <delete id="deleteUser" parameterType="cn.lxsir.uniapp.dto.DeleteUserDto">
+        delete from class_user u where u.user_id = #{userId} and u.class_id = #{classId}
+    </delete>
+
+    <delete id="deleteUserBatch" parameterType="cn.lxsir.uniapp.dto.DeleteUserDto">
+        delete from class_user u where  u.class_id = #{classId}
+    </delete>
+
+    <select id="getRank" resultType="cn.lxsir.uniapp.vo.ClassRankVo">
+        select u.user_id userId,u.nick_name nickName,t.question_num questionNum from class_user u inner join
+            (
+                SELECT t.USER_ID,sum(c.QUESTION_NUM) question_num
+                FROM `task_user` t left join `class_task` c on t.TASK_ID = c.TASK_ID
+                WHERE c.CLASS_ID = #{classId} and t.FINISH_FLAG = '1'
+                GROUP BY t.USER_ID
+            ) t on t.USER_ID = u.USER_ID and u.CLASS_ID = #{classId}
+    </select>
+</mapper>

@@ -1,0 +1,15 @@
+
+.class-detail{
+	display: flex;
+	flex-direction: column;
+}
+.class-detail-head{
+	display: flex;
+	flex-direction: column;
+	padding-top: 20rpx;
+}
+.class-detail-head-name{
+}
+.class-detail-head-setting{
+}
+
